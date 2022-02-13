@@ -53,6 +53,6 @@ function caluclate() {
     const total = subTotal + tax;
     document.getElementById('sub-total').innerText = subTotal;
     document.getElementById('tax-amount').innerText = tax.toFixed(2);
-
+    document.getElementById('total-price').innerText = total;
 
 }
